@@ -75,6 +75,7 @@ table {
     border: 10px;
     border-collapse: collapse;
     text-align: center;
+    table-layout: fixed;
     width: 100%;
 }
 
@@ -90,7 +91,7 @@ td, th {
     border: 1px solid #353F3F;
     padding: 8px;
 }
-  
+
 tr:nth-child(even){
     background-color: #f4f2f2;
 }
